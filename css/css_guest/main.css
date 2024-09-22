@@ -486,7 +486,8 @@ h6 {
     background: var(--nav-dropdown-background-color);
     display: block;
     position: absolute;
-    visibility: hidden;
+    /*         visibility: hidden;
+ */
     left: 14px;
     top: 130%;
     opacity: 0;
@@ -504,7 +505,7 @@ h6 {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
-    color: var(--nav-dropdown-hover-color);
+    color: var(--nav-dropdown-color);
   }
 
   .navmenu .dropdown ul a i {
