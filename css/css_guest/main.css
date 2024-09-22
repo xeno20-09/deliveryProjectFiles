@@ -486,11 +486,14 @@ h6 {
     background: var(--nav-dropdown-background-color);
     display: block;
     position: absolute;
-    /*         visibility: hidden;
- */
+    /*         
+    visibility: hidden;
+     opacity: 1;
+   */
+    visibility: visible;
+    opacity: 1;
     left: 14px;
     top: 130%;
-    opacity: 0;
     transition: 0.3s;
     border-radius: 4px;
     z-index: 99;
