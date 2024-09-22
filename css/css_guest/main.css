@@ -530,7 +530,7 @@ h6 {
   .navmenu .dropdown .dropdown ul {
     top: 0;
     left: -90%;
-    /*visibility: visible;*/
+    visibility: visible;
   }
 
   .navmenu .dropdown .dropdown:hover > ul {
