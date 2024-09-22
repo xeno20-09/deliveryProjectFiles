@@ -486,14 +486,12 @@ h6 {
     background: var(--nav-dropdown-background-color);
     display: block;
     position: absolute;
-    /*         
-    visibility: hidden;
-     opacity: 1;
-   */
-    visibility: visible;
-    opacity: 1;
     left: 14px;
     top: 130%;
+    /*      visibility: hidden;
+        opacity: 0; */
+    visibility: visible;
+    opacity: 1;
     transition: 0.3s;
     border-radius: 4px;
     z-index: 99;
@@ -514,31 +512,32 @@ h6 {
   .navmenu .dropdown ul a i {
     font-size: 12px;
   }
+  /* 
+    .navmenu .dropdown ul a:hover,
+    .navmenu .dropdown ul .active:hover,
+    .navmenu .dropdown ul li:hover > a {
+        color: var(--nav-dropdown-hover-color);
+    }
 
-  .navmenu .dropdown ul a:hover,
-  .navmenu .dropdown ul .active:hover,
-  .navmenu .dropdown ul li:hover > a {
-    color: var(--nav-dropdown-hover-color);
-  }
+    .navmenu .dropdown:hover > ul {
+        opacity: 1;
+        top: 100%;
+        visibility: visible;
+    }
 
-  .navmenu .dropdown:hover > ul {
-    opacity: 1;
-    top: 100%;
-    visibility: visible;
-  }
-
+ */
   .navmenu .dropdown .dropdown ul {
     top: 0;
     left: -90%;
     visibility: visible;
   }
 
-  .navmenu .dropdown .dropdown:hover > ul {
-    opacity: 1;
-    top: 0;
-    left: -100%;
-    visibility: visible;
-  }
+  /*  .navmenu .dropdown .dropdown:hover > ul {
+        opacity: 1;
+        top: 0;
+        left: -100%;
+        visibility: visible;
+    } */
 }
 
 /* Navmenu - Mobile */
