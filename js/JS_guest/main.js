@@ -6,6 +6,7 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
 function getLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition, showError);
